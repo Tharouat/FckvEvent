@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+}
+.header .logo{
+    font-weight: bolder ;
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+ }
+ .header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 10000;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+ }
+
+ .header .logo span{
+    color: #e71717 ;
+ }
+.heading{
+    padding: 35px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+ .heading span{
+    color: #e71717;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: color #666;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+    color: #fff ;
+}
+
+h2 {
+    margin: 0;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color:#e71717;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+footer{
+    margin-top: 150px;
+    color: #eee;
+    text-align: center;
+    bottom: 0;
+ }
+ 
