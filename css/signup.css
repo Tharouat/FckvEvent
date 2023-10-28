@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #222;
+    background-image: url('../assets/background.jpg');
 }
 .header .logo{
     font-weight: bolder ;
@@ -12,7 +12,7 @@ body {
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 10000;
-    background: #333;
+    background: #05021f;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,6 +59,8 @@ h2 {
 label {
     display: block;
     font-weight: bold;
+    background: #06031f;
+    width: auto;
 }
 
 input {
@@ -92,7 +94,7 @@ button {
 }
 
 footer{
-    margin-top: 150px;
+    margin-top: 140px;
     color: #eee;
     text-align: center;
     bottom: 0;

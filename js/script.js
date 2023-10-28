@@ -8,5 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         message.textContent = 'Sign-up successful!';
         message.classList.remove('hidden');
+        setTimeout(function() {
+           window.location.href = 'index.html';
+        }, 500);
     });
 });
+
+
