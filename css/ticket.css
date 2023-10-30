@@ -274,6 +274,19 @@ transform: scale(1.5);
   font-size: 2rem;
   cursor: pointer;
 }
+.contact1 {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.contact-links{
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
 
 footer{
   color: #eee;

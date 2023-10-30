@@ -327,7 +327,9 @@
    color: #fff;
    line-height: 1.8;
 }
-
+.contact1{
+   display: flex;
+}
 .contact form{
    max-width: 70rem;
    margin: 1rem auto;
@@ -357,6 +359,21 @@ footer p{
    text-align: center;
    bottom: 0;
 }
+
+.contact1 {
+   display: flex;
+   color: #fff;
+   text-decoration: none;
+   text-transform: uppercase;
+
+}
+.contact-links{
+   text-decoration: none;
+   margin: 20px;
+   padding: 20px;
+   color: #fff;
+}
+
 
 
 
