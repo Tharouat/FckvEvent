@@ -365,14 +365,34 @@ footer p{
    color: #fff;
    text-decoration: none;
    text-transform: uppercase;
-
 }
-.contact-links{
+
+.contact1 a {
+   text-decoration: none;
+   cursor: pointer;
+}
+.contact-links {
    text-decoration: none;
    margin: 20px;
    padding: 20px;
    color: #fff;
 }
+
+
+.contact-links a{
+   color: #fff;
+}
+.contact-links li{
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.contact-links a:hover{
+   color: var(--main-color);
+}
+
+
+
 
 
 
